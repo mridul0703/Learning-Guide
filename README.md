@@ -1,5 +1,9 @@
 # Welcome to Learning Guide
 
+<div align="center">
+  <img alt="Demo" src="https://onlinegrad.syracuse.edu/wp-content/uploads/sites/36/2021/01/kid-friendly-coding-languages-01.jpg?w=768" />
+</div>
+
 ## Introduction
 
 This repository serves as a comprehensive guide and resource hub for learning various programming languages and technologies. Whether you're a beginner looking to get started with web development or an experienced developer seeking to enhance your skills, you'll find valuable resources and information here.
