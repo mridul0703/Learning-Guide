@@ -67,6 +67,12 @@ This guide is structured to cater to learners at all levels, from beginners taki
     - [Model Training](#model-training)
     - [Model Evaluation](#model-evaluation)
     - [Model Deployment](#model-deployment)
+    - [Dimensionality Reduction](#dimensionality-reduction)
+    - [Clustering](#clustering)
+    - [Anomaly Detection](#anomaly-detection)
+    - [Time Series Analysis](#time-series-analysis)
+    - [Hyperparameter Tuning](#hyperparameter-tuning)
+    - [Ethical Considerations](#ethical-considerations)
 
 # Machine Learning Learning Guide
 
@@ -328,3 +334,32 @@ Model deployment is the process of making a machine learning model available for
 - [Model Deployment](https://www.tensorflow.org/tfx/guide/serving)
 - [Model Deployment Explained](https://towardsdatascience.com/a-friendly-guide-to-deploying-machine-learning-models-6a1c54e83a29)
 
+### Dimensionality Reduction
+Dimensionality reduction involves reducing the number of random variables under consideration by obtaining a set of principal variables.
+- [Dimensionality Reduction](https://scikit-learn.org/stable/modules/unsupervised_reduction.html)
+- [PCA Explained](https://towardsdatascience.com/a-quick-guide-to-pca-principal-component-analysis-2d1c6e3fc5a1)
+
+### Clustering
+Clustering is a method of unsupervised learning where the task is to group a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups.
+- [Clustering](https://scikit-learn.org/stable/modules/clustering.html)
+- [Clustering Explained](https://towardsdatascience.com/clustering-algorithms-k-means-and-k-means-556e2dd8a71d)
+
+### Anomaly Detection
+Anomaly detection is the identification of rare items, events, or observations which raise suspicions by differing significantly from the majority of the data.
+- [Anomaly Detection](https://scikit-learn.org/stable/modules/outlier_detection.html)
+- [Anomaly Detection Techniques](https://towardsdatascience.com/anomaly-detection-techniques-in-machine-learning-9c0a9bcdcd2b)
+
+### Time Series Analysis
+Time series analysis involves analyzing time series data to extract meaningful statistics and other characteristics of the data.
+- [Time Series Analysis](https://towardsdatascience.com/an-intuitive-guide-to-time-series-forecasting-using-arima-and-sarima-37c90fd7f9b2)
+- [Time Series with Python](https://www.machinelearningplus.com/time-series/time-series-analysis-python/)
+
+### Hyperparameter Tuning
+Hyperparameter tuning involves finding the optimal set of hyperparameters for a learning algorithm.
+- [Hyperparameter Tuning](https://scikit-learn.org/stable/modules/grid_search.html)
+- [Hyperparameter Tuning Guide](https://towardsdatascience.com/hyperparameter-tuning-c5619e7e6624)
+
+### Ethical Considerations
+Ethical considerations in machine learning involve addressing fairness, accountability, transparency, and ethics in AI systems.
+- [Ethics in AI](https://www.brookings.edu/research/ai-ethics/)
+- [Ethical Machine Learning](https://towardsdatascience.com/ethics-in-machine-learning-3d5e6c29e33b)
