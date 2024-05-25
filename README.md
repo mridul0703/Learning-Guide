@@ -16,6 +16,7 @@ This repository serves as a comprehensive guide and resource hub for learning va
 - [CSS](CSS.md)
 - [JavaScript](JavaScript.md)
 - [React.js](React.md)
+- [Machine Learning](Machine-Learning.md)
 
 ## Contributing
 
