@@ -2,6 +2,8 @@
 
 Welcome to the Complete Machine Learning Learning Guide! Whether you're a beginner looking to get started with machine learning or an experienced practitioner aiming to delve deeper into advanced topics and best practices, this comprehensive guide is designed to help you navigate the world of machine learning development.
 
+![Machine Learning Roadmap](https://github.com/mridul0703/Learning-Guide/blob/main/Images/roadmapforml.jpg)
+
 ## Introduction
 
 Machine learning (ML) has become a cornerstone of modern technology, powering applications from recommendation systems and image recognition to natural language processing and autonomous vehicles. With its ability to learn from data and make predictions or decisions without being explicitly programmed, machine learning offers immense potential for innovation across various industries.
