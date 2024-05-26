@@ -10,55 +10,55 @@ This guide is structured to cater to learners at all levels, from beginners taki
 
 ## Table of Contents
 
-1. [# JSX (JavaScript XML)](#jsx-javascript-xml)
-2. [# Components](#components)
-3. [# Props (Properties)](#props-properties)
-4. [# State](#state)
-5. [# Events and Event Handling](#events-and-event-handling)
-6. [# Conditional Rendering](#conditional-rendering)
-7. [# Lists and Keys](#lists-and-keys)
-8. [# Forms and Controlled Components](#forms-and-controlled-components)
-9. [# Basic Styling](#basic-styling)
-10. [# Intermediate Topics](#intermediate)
-    - [# Component Lifecycle Methods](#component-lifecycle-methods)
-    - [# Hooks](#hooks)
-    - [# Context API](#context-api)
-    - [# React Router](#react-router)
-    - [# Higher-Order Components (HOCs)](#higher-order-components-hocs)
-    - [# Render Props](#render-props)
-    - [# Portals](#portals)
-    - [# Error Boundaries](#error-boundaries)
-    - [# Refs and the DOM](#refs-and-the-dom)
-    - [# PropTypes for Type Checking](#proptypes-for-type-checking)
-    - [# Fragments](#fragments)
-11. [# Advanced Topics](#advanced)
-    - [# Code Splitting and Lazy Loading](#code-splitting-and-lazy-loading)
-    - [# Server-Side Rendering (SSR)](#server-side-rendering-ssr)
-    - [# Static Site Generation (SSG)](#static-site-generation-ssg)
-    - [# Next.js Framework](#nextjs-framework)
-    - [# Gatsby Framework](#gatsby-framework)
-    - [# State Management Libraries](#state-management-libraries)
-    - [# Performance Optimization](#performance-optimization)
-    - [# Custom Hooks](#custom-hooks)
-    - [# Concurrent Mode (Experimental)](#concurrent-mode-experimental)
-    - [# React Suspense](#react-suspense)
-    - [# React Profiler](#react-profiler)
-    - [# React Testing](#react-testing)
-    - [# GraphQL with React](#graphql-with-react)
-    - [# TypeScript with React](#typescript-with-react)
-    - [# Internationalization (i18n)](#internationalization-i18n)
-    - [# Accessibility (a11y)](#accessibility-a11y)
-    - [# Static Type Checking with TypeScript](#static-type-checking-with-typescript)
-    - [# Animation Libraries](#animation-libraries)
-    - [# Advanced Patterns](#advanced-patterns)
-    - [# Integrating with Other Libraries](#integrating-with-other-libraries)
-    - [# Deployment](#deployment)
-12. [# Tools and Ecosystem](#tools-and-ecosystem)
-    - [# Create React App (CRA)](#create-react-app-cra)
-    - [# React Developer Tools](#react-developer-tools)
-    - [# Storybook for UI Component Development](#storybook-for-ui-component-development)
-    - [# ESLint and Prettier for Code Quality](#eslint-and-prettier-for-code-quality)
-    - [# Webpack and Babel](#webpack-and-babel)
+1. [JSX (JavaScript XML)](#jsx-javascript-xml)
+2. [Components](#components)
+3. [Props (Properties)](#props-properties)
+4. [State](#state)
+5. [Events and Event Handling](#events-and-event-handling)
+6. [Conditional Rendering](#conditional-rendering)
+7. [Lists and Keys](#lists-and-keys)
+8. [Forms and Controlled Components](#forms-and-controlled-components)
+9. [Basic Styling](#basic-styling)
+10. [Intermediate Topics](#intermediate)
+    - [Component Lifecycle Methods](#component-lifecycle-methods)
+    - [Hooks](#hooks)
+    - [Context API](#context-api)
+    - [React Router](#react-router)
+    - [Higher-Order Components (HOCs)](#higher-order-components-hocs)
+    - [Render Props](#render-props)
+    - [Portals](#portals)
+    - [Error Boundaries](#error-boundaries)
+    - [Refs and the DOM](#refs-and-the-dom)
+    - [PropTypes for Type Checking](#proptypes-for-type-checking)
+    - [Fragments](#fragments)
+11. [Advanced Topics](#advanced)
+    - [Code Splitting and Lazy Loading](#code-splitting-and-lazy-loading)
+    - [Server-Side Rendering (SSR)](#server-side-rendering-ssr)
+    - [Static Site Generation (SSG)](#static-site-generation-ssg)
+    - [Next.js Framework](#nextjs-framework)
+    - [Gatsby Framework](#gatsby-framework)
+    - [State Management Libraries](#state-management-libraries)
+    - [Performance Optimization](#performance-optimization)
+    - [Custom Hooks](#custom-hooks)
+    - [Concurrent Mode (Experimental)](#concurrent-mode-experimental)
+    - [React Suspense](#react-suspense)
+    - [React Profiler](#react-profiler)
+    - [React Testing](#react-testing)
+    - [GraphQL with React](#graphql-with-react)
+    - [TypeScript with React](#typescript-with-react)
+    - [Internationalization (i18n)](#internationalization-i18n)
+    - [Accessibility (a11y)](#accessibility-a11y)
+    - [Static Type Checking with TypeScript](#static-type-checking-with-typescript)
+    - [Animation Libraries](#animation-libraries)
+    - [Advanced Patterns](#advanced-patterns)
+    - [Integrating with Other Libraries](#integrating-with-other-libraries)
+    - [Deployment](#deployment)
+12. [Tools and Ecosystem](#tools-and-ecosystem)
+    - [Create React App (CRA)](#create-react-app-cra)
+    - [React Developer Tools](#react-developer-tools)
+    - [Storybook for UI Component Development](#storybook-for-ui-component-development)
+    - [ESLint and Prettier for Code Quality](#eslint-and-prettier-for-code-quality)
+    - [Webpack and Babel](#webpack-and-babel)
 
 # React.js Learning Guide
 
@@ -66,44 +66,44 @@ This guide is structured to cater to learners at all levels, from beginners taki
 
 ### JSX (JavaScript XML)
 JSX is a syntax extension for JavaScript that looks similar to XML or HTML.
-- [Official Documentation](https://reactjs.org/docs/introducing-jsx.html)
+- [Official Documentation](https://react.dev/learn/writing-markup-with-jsx)
 
 ### Components
 Reusable pieces of code that define how a part of the UI should look and behave.
 - **Functional Components**: Components defined as functions.
-  - [Functional Components](https://reactjs.org/docs/components-and-props.html#function-and-class-components)
+  - [Functional Components](https://react.dev/learn/your-first-component)
 - **Class Components**: Components defined as ES6 classes.
-  - [Class Components](https://reactjs.org/docs/state-and-lifecycle.html#converting-a-function-to-a-class)
+  - [Class Components](https://react.dev/reference/react/Component)
 
 ### Props (Properties)
 Read-only attributes passed from parent to child components.
-- [Props](https://reactjs.org/docs/components-and-props.html)
+- [Props](https://react.dev/learn/passing-props-to-a-component)
 
 ### State
 Built-in object that stores data that changes over the lifetime of the component.
 - **useState Hook**: Allows adding state to functional components.
-  - [useState Hook](https://reactjs.org/docs/hooks-state.html)
+  - [useState Hook](https://react.dev/reference/react/useState)
 
 ### Events and Event Handling
 Handling events such as clicks, form submissions, etc.
-- [Handling Events](https://reactjs.org/docs/handling-events.html)
+- [Handling Events](https://react.dev/learn/responding-to-events)
 
 ### Conditional Rendering
 Rendering different components or elements based on conditions.
-- [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
+- [Conditional Rendering](https://react.dev/learn/conditional-rendering)
 
 ### Lists and Keys
 Rendering lists of data and using keys for efficient updates.
-- [Lists and Keys](https://reactjs.org/docs/lists-and-keys.html)
+- [Lists and Keys](https://react.dev/learn/rendering-lists)
 
 ### Forms and Controlled Components
 Handling form inputs and managing form state.
-- [Forms](https://reactjs.org/docs/forms.html)
+- [Forms](https://react.dev/learn/updating-objects-in-state)
 
 ### Basic Styling
 Applying styles to components.
 - **Inline Styles**
-  - [Inline Styles](https://reactjs.org/docs/dom-elements.html#style)
+  - [Inline Styles](https://react.dev/reference/react-dom/components/common#style)
 - **CSS Modules**
   - [CSS Modules](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/)
 
@@ -111,26 +111,26 @@ Applying styles to components.
 
 ### Component Lifecycle Methods
 Special methods in class components for running code at specific points in a component’s lifecycle.
-- [Lifecycle Methods](https://reactjs.org/docs/react-component.html#the-component-lifecycle)
+- [Lifecycle Methods](https://react.dev/reference/react/Component#the-component-lifecycle)
 
 ### Hooks
 Functions that let you use state and other React features in functional components.
 - **useEffect**
-  - [useEffect](https://reactjs.org/docs/hooks-effect.html)
+  - [useEffect](https://react.dev/reference/react/useEffect)
 - **useContext**
-  - [useContext](https://reactjs.org/docs/hooks-reference.html#usecontext)
+  - [useContext](https://react.dev/reference/react/useContext)
 - **useReducer**
-  - [useReducer](https://reactjs.org/docs/hooks-reference.html#usereducer)
+  - [useReducer](https://react.dev/reference/react/useReducer)
 - **useRef**
-  - [useRef](https://reactjs.org/docs/hooks-reference.html#useref)
+  - [useRef](https://react.dev/reference/react/useRef)
 - **useMemo**
-  - [useMemo](https://reactjs.org/docs/hooks-reference.html#usememo)
+  - [useMemo](https://react.dev/reference/react/useMemo)
 - **useCallback**
-  - [useCallback](https://reactjs.org/docs/hooks-reference.html#usecallback)
+  - [useCallback](https://react.dev/reference/react/useCallback)
 
 ### Context API
 Allows sharing data across multiple components without passing props manually.
-- [Context API](https://reactjs.org/docs/context.html)
+- [Context API](https://react.dev/reference/react/createContext)
 
 ### React Router
 Library for routing in React applications.
@@ -138,41 +138,41 @@ Library for routing in React applications.
 
 ### Higher-Order Components (HOCs)
 Functions that take a component and return a new component.
-- [HOCs](https://reactjs.org/docs/higher-order-components.html)
+- [HOCs](https://react.dev/learn/reusing-logic-with-higher-order-components)
 
 ### Render Props
 Technique for sharing code between components using a prop whose value is a function.
-- [Render Props](https://reactjs.org/docs/render-props.html)
+- [Render Props](https://react.dev/learn/render-props)
 
 ### Portals
 Rendering children into a DOM node outside the parent component.
-- [Portals](https://reactjs.org/docs/portals.html)
+- [Portals](https://react.dev/reference/react-dom/createPortal)
 
 ### Error Boundaries
 Components that catch JavaScript errors anywhere in their child component tree.
-- [Error Boundaries](https://reactjs.org/docs/error-boundaries.html)
+- [Error Boundaries](https://react.dev/learn/error-boundaries)
 
 ### Refs and the DOM
 Accessing DOM nodes or React elements created in the render method.
-- [Refs and the DOM](https://reactjs.org/docs/refs-and-the-dom.html)
+- [Refs and the DOM](https://react.dev/reference/react/useRef#refs-and-the-dom)
 
 ### PropTypes for Type Checking
 Typechecking for props in components.
-- [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
+- [PropTypes](https://react.dev/reference/react/PropTypes)
 
 ### Fragments
 Allows grouping of a list of children without adding extra nodes to the DOM.
-- [Fragments](https://reactjs.org/docs/fragments.html)
+- [Fragments](https://react.dev/reference/react/Fragment)
 
 ## Advanced
 
 ### Code Splitting and Lazy Loading
 Splitting code into smaller bundles and loading them on demand.
-- [Code Splitting](https://reactjs.org/docs/code-splitting.html)
+- [Code Splitting](https://react.dev/learn/code-splitting)
 
 ### Server-Side Rendering (SSR)
 Rendering React components on the server.
-- [SSR](https://reactjs.org/docs/react-dom-server.html)
+- [SSR](https://react.dev/reference/react-dom/server)
 
 ### Static Site Generation (SSG)
 Generating static HTML files during build time.
@@ -198,29 +198,29 @@ Managing state in larger applications.
 ### Performance Optimization
 Improving performance of React applications.
 - **Memoization**
-  - [Memoization](https://reactjs.org/docs/hooks-reference.html#usememo)
+  - [Memoization](https://react.dev/reference/react/useMemo)
 - **React.memo**
-  - [React.memo](https://reactjs.org/docs/react-api.html#reactmemo)
+  - [React.memo](https://react.dev/reference/react/memo)
 - **useMemo**
-  - [useMemo](https://reactjs.org/docs/hooks-reference.html#usememo)
+  - [useMemo](https://react.dev/reference/react/useMemo)
 - **useCallback**
-  - [useCallback](https://reactjs.org/docs/hooks-reference.html#usecallback)
+  - [useCallback](https://react.dev/reference/react/useCallback)
 
 ### Custom Hooks
 Creating custom hooks to reuse stateful logic.
-- [Custom Hooks](https://reactjs.org/docs/hooks-custom.html)
+- [Custom Hooks](https://react.dev/learn/reusing-logic-with-custom-hooks)
 
 ### Concurrent Mode (Experimental)
 Improving user experience by rendering updates in a non-blocking way.
-- [Concurrent Mode](https://reactjs.org/docs/concurrent-mode-intro.html)
+- [Concurrent Mode](https://react.dev/learn/concurrent-ui-patterns)
 
 ### React Suspense
 For loading components asynchronously.
-- [Suspense](https://reactjs.org/docs/concurrent-mode-suspense.html)
+- [Suspense](https://react.dev/reference/react/Suspense)
 
 ### React Profiler
 Tool for measuring performance of React applications.
-- [Profiler](https://reactjs.org/docs/profiler.html)
+- [Profiler](https://react.dev/reference/react/Profiler)
 
 ### React Testing
 Testing React components.
@@ -236,7 +236,7 @@ Using GraphQL for data fetching in React.
 
 ### TypeScript with React
 Using TypeScript for type safety in React applications.
-- [TypeScript with React](https://react-typescript-cheatsheet.netlify.app/)
+- [TypeScript with React](https://react.dev/learn/typescript-integration)
 
 ### Internationalization (i18n)
 Adding internationalization support to React applications.
@@ -244,7 +244,7 @@ Adding internationalization support to React applications.
 
 ### Accessibility (a11y)
 Ensuring React applications are accessible.
-- [Accessibility](https://reactjs.org/docs/accessibility.html)
+- [Accessibility](https://react.dev/learn/accessibility)
 
 ### Static Type Checking with TypeScript
 Using TypeScript for static type checking in React.
@@ -262,9 +262,9 @@ Using advanced patterns in React development.
 - **Compound Components**
   - [Compound Components](https://kentcdodds.com/blog/compound-components-with-react-hooks)
 - **Render Props**
-  - [Render Props](https://reactjs.org/docs/render-props.html)
+  - [Render Props](https://react.dev/learn/render-props)
 - **Controlled vs Uncontrolled Components**
-  - [Controlled vs Uncontrolled Components](https://reactjs.org/docs/uncontrolled-components.html)
+  - [Controlled vs Uncontrolled Components](https://react.dev/learn/uncontrolled-and-controlled-components)
 
 ### Integrating with Other Libraries
 Using other libraries in React applications.
@@ -286,11 +286,11 @@ Deploying React applications.
 
 ### Create React App (CRA)
 CLI tool to set up a new React project with a standard configuration.
-- [Create React App](https://reactjs.org/docs/create-a-new-react-app.html)
+- [Create React App](https://react.dev/reference/react/create-a-new-react-app)
 
 ### React Developer Tools
 Browser extension for inspecting React components.
-- [React Developer Tools](https://reactjs.org/blog/2019/08/15/new-react-devtools.html)
+- [React Developer Tools](https://react.dev/learn/react-developer-tools)
 
 ### Storybook for UI Component Development
 Tool for developing and testing UI components in isolation.
@@ -309,10 +309,3 @@ Tools for module bundling and JavaScript transpiling.
   - [Webpack](https://webpack.js.org/)
 - **Babel**
   - [Babel](https://babeljs.io/)
-
-  - [Webpack](https://webpack.js.org/)
-![Webpack Example](https://webpack.js.org/site-logo.1fcab817090e78435061.svg)
-- **Babel**
-  - [Babel](https://babeljs.io/)
-![Babel Example](https://babeljs.io/img/favicon.png)
-
