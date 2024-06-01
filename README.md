@@ -13,13 +13,13 @@ This repository serves as a comprehensive guide and resource hub for learning va
 [Here, you can list the languages covered in the repository. Below is an example:]
 
 - Data Structures and Algorithm 
-- - [C++](C++.md)
+  - [C++](C++.md)
 
 - Web - Development
-- - [HTML](HTML.md)
-- - [CSS](CSS.md)
-- - [JavaScript](JavaScript.md)
-- - [React.js](React.md)
+  - [HTML](HTML.md)
+  - [CSS](CSS.md)
+  - [JavaScript](JavaScript.md)
+  - [React.js](React.md)
 
 - [Machine Learning](Machine-Learning.md)
 
