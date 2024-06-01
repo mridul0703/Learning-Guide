@@ -14,6 +14,8 @@ This repository serves as a comprehensive guide and resource hub for learning va
 
 - Data Structures and Algorithm 
   - [C++](C++.md)
+  - [C](C.md)
+  - [Data Sturctures and Algorithm](Data-structures-and-algorithm.md)
 
 - Web - Development
   - [HTML](HTML.md)
