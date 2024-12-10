@@ -13,18 +13,20 @@ This repository serves as a comprehensive guide and resource hub for learning va
 [Here, you can list the languages covered in the repository. Below is an example:]
 
 - Data Structures and Algorithm 
-  - [C++](C++.md)
-  - [C](C.md)
-  - [Data Sturctures and Algorithm](Data-structures-and-algorithm.md)
+  - [C](https://github.com/mridul0703/Learning-Guide/blob/main/1.1%20C.md)
+  - [C++](https://github.com/mridul0703/Learning-Guide/blob/main/1.2%20C%2B%2B.md)
+  - [Data Sturctures and Algorithm](https://github.com/mridul0703/Learning-Guide/blob/main/1.3%20Data-structures-and-algorithm.md)
+  - [Data Structures](https://github.com/mridul0703/Learning-Guide/blob/main/1.4%20Data%20Sturctures.md)
 
 - Web - Development
-  - [HTML](HTML.md)
-  - [CSS](CSS.md)
-  - [JavaScript](JavaScript.md)
-  - [React Js](React.md)
-  - [Node Js](NodeJs.md)
+  - [HTML](https://github.com/mridul0703/Learning-Guide/blob/main/2.1%20HTML.md)
+  - [SEO Optimized](https://github.com/mridul0703/Learning-Guide/blob/main/2.1.1%20seo-optimised.html)
+  - [CSS](https://github.com/mridul0703/Learning-Guide/blob/main/2.2%20CSS.md)
+  - [JavaScript](https://github.com/mridul0703/Learning-Guide/blob/main/2.3%20JavaScript.md)
+  - [React Js](https://github.com/mridul0703/Learning-Guide/blob/main/2.4%20React.md)
+  - [Node Js](https://github.com/mridul0703/Learning-Guide/blob/main/2.5%20NodeJs.md)
 
-- [Machine Learning](Machine-Learning.md)
+- [Machine Learning](https://github.com/mridul0703/Learning-Guide/blob/main/3%20Machine-Learning.md)
 
 ## Contributing
 
